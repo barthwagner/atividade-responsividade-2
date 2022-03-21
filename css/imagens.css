@@ -1,17 +1,14 @@
 .imagens {
   height: 200px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .box1 {
   position: relative;
   width: 33%;
-}
-
-#img1 {
-  position: relative;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .box2 {
@@ -21,13 +18,6 @@
   width: 33%;
 }
 
-#img2 {
-  position: relative;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .box3 {
   position: relative;
   float: right;
@@ -35,25 +25,11 @@
   width: 33%;
 }
 
-#img3 {
-  position: relative;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 @media screen and (max-width: 768px) {
   .box1 {
     position: relative;
     width: 50%;
-  }
-
-  #img1 {
-    position: relative;
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .box2 {
@@ -63,25 +39,11 @@
     width: 50%;
   }
 
-  #img2 {
-    position: relative;
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .box3 {
-    left: 15%;
-    top: auto;
+    width: 100%;
+    top: -180px;
   }
 
-  #img3 {
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 @media screen and (max-width: 375px) {
@@ -89,23 +51,9 @@
     width: 100%;
   }
 
-  #img1 {
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .box2 {
     width: 100%;
     top: 0px;
-  }
-
-  #img2 {
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .box3 {
@@ -114,10 +62,4 @@
     left: 0px;
   }
 
-  #img3 {
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
